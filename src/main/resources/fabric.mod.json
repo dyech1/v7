@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "colorwheel",
+  "version": "${version}",
+  "name": "Ruleta de Colores",
+  "description": "Una ruleta donde eliges el color que va a salir.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.colorwheel.ColorWheelMod"],
+    "client": ["com.colorwheel.ColorWheelClient"]
+  },
+  "mixins": ["colorwheel.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
